@@ -1,0 +1,86 @@
+# Creating and Tracking Issues on GitHub  
+**For Passion Projects – Data Science Focus**
+
+## Why Use Issues?
+
+GitHub Issues are a powerful way to plan, track, and manage your tasks collaboratively. You can use them to:
+
+- Log bugs and unexpected behavior
+- Suggest new features or enhancements
+- Assign and track work within your team
+- Discuss and clarify project ideas
+
+---
+
+## 🪜 Step-by-Step: Creating an Issue
+
+1. **Navigate to Your Repository**  
+   Go to your team’s repository on GitHub.
+
+2. **Go to the Issues Tab**  
+   Click the **"Issues"** tab located near the top of the repo page.
+
+3. **Click “New Issue”**
+   - Give your issue a **clear title** (e.g., `Add data preprocessing pipeline`).
+   - Provide a **detailed description** including:
+     - What needs to be done
+     - Why it's important
+     - Any references or screenshots
+
+4. **Add Labels (Optional)**  
+   Use labels like:
+   - `bug`
+   - `enhancement`
+   - `documentation`
+   - `question`
+   - `data-analysis`
+
+5. **Assign the Issue**  
+   Assign yourself or a team member responsible for resolving the issue.
+
+6. **Set a Milestone or Project Board (Optional)**  
+   Use milestones or project boards to group related issues and track progress toward a goal.
+
+---
+
+## 🔁 Updating and Closing Issues
+
+- **Track Progress**  
+  Add comments as you work on the issue. You can link commits and pull requests by mentioning the issue number (e.g., `Fixes #12`).
+
+- **Referencing Issues in Commits**  
+  Use commit messages like:
+  ```
+  git commit -m "Added EDA script for customer churn analysis. Closes #7"
+  ```
+
+- **Close the Issue**
+  Once resolved, click **"Close issue"** or let your merged pull request do it automatically via commit keywords (e.g., `closes #issue-number`).
+
+---
+
+## ✅ Best Practices
+
+- Keep issues **focused** and **specific**.
+- Break large tasks into smaller issues.
+- Use **checklists** within an issue for multi-step tasks.
+- Regularly review open issues in your team meetings.
+
+---
+
+## 💡 Example Issue for a Data Science Project
+
+**Title**: Add feature scaling to model pipeline  
+**Description**:  
+We need to normalize/standardize features before training our SVM model to improve performance.  
+Tasks:  
+- Identify numerical columns  
+- Use `StandardScaler` from `sklearn.preprocessing`  
+- Apply scaling in pipeline  
+  
+Refer to notebook: `model_training.ipynb`
+
+---
+
+Using issues effectively will help your team stay organized and produce better results.  
+Happy collaborating! 🚀

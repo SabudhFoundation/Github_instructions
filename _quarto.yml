@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Github Instructions"
+  navbar:
+    background: primary
+    search: true
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Instructions for Mentors
+        menu:
+        - mentors.qmd
+        # - issue_tracking.qmd
+
+      - text: Issue Tracking
+        menu:
+        - issues.qmd
+        # - mentors.qmd
+      #   - eclipse.qmd
+    aria-label: true
+
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+# bibliography: references.bib
+
+

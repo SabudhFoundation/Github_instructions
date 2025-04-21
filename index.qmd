@@ -1,0 +1,133 @@
+---
+title: Github Repository for Passion Project
+Author: Sukhjit Singh Sehra
+---
+
+## Instructions for Students
+
+To bring uniformity in monitoring your coding progress and team collaboration, we will be using **GitHub Classroom** for the Passion Project. Follow the steps below carefully to set up your repository and start working as a team:
+
+### ✅ Getting Started
+
+1. **Create a GitHub Account**  
+   Ensure every team member has an active GitHub account. If not, sign up at [https://github.com](https://github.com).
+
+2. **Join the Assignment**  
+   The on this link to access the GitHub Classroom assignment will be sent via email to you:  
+   🔗 [https://classroom.github.com/](https://classroom.github.com/)  
+   Then click **"Accept this assignment"**.
+
+3. **Form or Join a Team (Responsibility Project Group Student Leader)**
+   - If your team already exists, **select it** from the list.
+   - If not, one member (ideally the **project lead**) should click on **"Create a new team"** and name it sensibly, reflecting your Passion Project’s title. Encouraged to use of clear, consistent naming and connected with `_` (e.g., `Traffic_Flow_Prediction`, `Crop_Yield_Predictor`, `Gait_Analyzer`, etc.).
+   - All other team members will join the newly created team (No separate project will be created).
+
+---
+
+### 💻 Setting Up the Repository
+
+4. **Repository Creation**
+   - Once the team is set, GitHub will automatically generate a **private repository** for your project.
+   - Each member must **clone** this repository to their local system:
+     - Go to the repo homepage.
+     - Click the green **"Code"** button.
+     - You will see two options: **HTTPS** and **SSH**.
+  
+::: {.panel-tabset}
+
+## Option A: Clone via HTTPS 
+
+- It simpler but requires login everytime
+  
+```bash
+git clone https://github.com/YourOrganization/your-repo-name.git
+```
+
+## Option B: Clone via SSH 
+
+- It is recommended for frequent users, like you.
+  
+Steps to set up SSH:
+
+i. Open your terminal and generate a new SSH key:
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+ii. Press Enter to accept the default file location.
+
+iii. Add the SSH key to the ssh-agent:
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+iv. Copy the SSH key to your clipboard:
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+v. Go to GitHub > Settings > SSH and GPG keys > New SSH key.
+
+vi. Paste your key and give it a title (e.g., “My Laptop”).
+
+vii. Now you can clone using:
+
+```bash
+git clone git@github.com:YourOrganization/your-repo-name.git
+```
+:::
+
+5. **Project Directory & Report**
+   - A predefined **directory structure** is provided in the repository. This **must be used** for your project development.
+   - A **report template** is included under the `reports/` folder to help you document your work.
+
+---
+
+### 👨‍💻 Collaboration Guidelines
+
+6. **Daily Contributions**
+   - Work collaboratively. Every team member is expected to contribute regularly.
+   - Use **meaningful commit messages** and **push your work daily**.
+   - Your GitHub activity (commits, issues, pull requests) will be **monitored and evaluated**.
+
+7. **Using Python Classes**
+   - You are strongly encouraged to organize your code using **Python classes** to ensure modular and reusable code.
+
+8. **Mentor Access**
+   - Mentors are **owners** of all repositories. They may review your progress or provide inline suggestions directly in the repo.
+
+---
+
+## 🪜 Creating an Issues on Github
+
+1.  **Important** 
+   - Creating an issue is important because it clearly documents a task, bug, or idea, helping the team stay organized, collaborate effectively, and track progress transparently.
+   - See more information on 
+
+### 📦 Submitting the Assignment
+
+10. **Final Submission**
+   - Once your project is complete:
+     - Go to the GitHub Classroom assignment page.
+     - Click **"Submit assignment"**.
+     - Choose your team's repository.
+     - Provide a short **comment describing your submission**, then click **Submit**.
+
+---
+
+### 🧰 Tools & Tips
+
+- Install the **Python docstring extension** in VS Code to improve your documentation practices:  
+  🔗 [https://sukhjitsehra.github.io/vscode/](https://sukhjitsehra.github.io/vscode/)
+
+---
+
+### 📌 Final Notes
+
+- **Your GitHub repo is your workspace and audit trail.** Commit sensibly, and avoid pushing unrelated or incomplete work.
+- **Stick to the provided folder structure** and report format.
+- Your team will be graded on:
+  - **Code quality**
+  - **Git activity**
+  - **Team collaboration**
+  - **Final report**

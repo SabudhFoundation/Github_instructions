@@ -1,0 +1,86 @@
+## Instructions for Mentors
+
+
+## Overview
+
+As a Mentor, you will have administrative access to one or more GitHub repositories associated with Passion Projects on GitHub Classroom. Your role is critical in helping guide student teams, ensuring their repositories follow good practices, and supporting them through their project journey.
+
+
+### 👥 Setting Up & Supporting Teams
+
+1. **Assist Students in Team Creation**  
+   - Responsibility of creating passion project repository should be assigned to Group Student Leader (if not please assign responsibility) and all other students will join the group. 
+   - Help students create or join sensible team names that clearly reflect their project themes.
+   - Encourage use of clear, consistent naming and connected with `_` (e.g., `Traffic_Flow_Prediction`, `Crop_Yield_Predictor`, `Gait_Analyzer`, etc.).
+
+2. **Monitor Team Repositories**  
+   - Once a team accepts the GitHub Classroom assignment, a **private repository** will be created automatically.
+   - As a mentor, you will be added as a **repository admin** with full privileges to guide and manage content.
+
+
+### 📁 Repository Structure & Guidance
+
+3. **Initial Structure**  
+   - A predefined directory structure and `report` folder are already included in each repo.
+   - Please help students understand this structure and stick to it unless modification is essential.
+
+4. **Custom Structure (if needed)**  
+   - If a project demands a different directory structure, you may update it.
+   - **Important**: In such cases, the **`README.md` must be updated** to clearly reflect the new structure and explain the purpose of each folder.
+
+---
+
+### 🔍 Monitoring and Feedback
+
+5. **Track Contributions**  
+   - Use GitHub tools to monitor:
+     - Commit history
+     - Pull requests
+     - Issues and discussions
+     - Project boards (if used)
+
+6. **Encourage Good Practices**
+   - Regular commits with meaningful messages.
+   - Use of `issues` to track tasks and bugs.
+   - Merging via pull requests for collaborative work.
+   - Consistent use of docstrings and inline comments.
+
+---
+
+### 🧑‍🏫 Mentor Responsibilities
+
+- Provide guidance on:
+  - Project scope and feasibility
+  - Structuring and modularizing code using Python classes
+  - Writing clear documentation and final reports
+
+- Provide feedback directly in the repository via:
+  - Inline comments on commits and pull requests
+  - Open or assign issues
+  - README suggestions
+
+---
+
+### 🗂️ Submission and Evaluation
+
+- Ensure teams submit the project using GitHub Classroom's **"Submit assignment"** feature.
+- Evaluate based on:
+  - Clarity and functionality of the project
+  - Code organization and reuse
+  - Use of GitHub as a collaboration tool
+  - Quality and clarity of the report
+
+---
+
+### 📣 Suggestions & Communication
+
+If you have suggestions to improve the workflow or repository template:
+
+- Please feel free to reach out directly to **Dr. Sukhjit Singh Sehra**.
+
+- Feedback is always welcome to make this a better learning experience for all!
+
+---
+
+Thank you for your commitment and mentorship!
+
