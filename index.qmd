@@ -13,7 +13,7 @@ To bring uniformity in monitoring your coding progress and team collaboration, w
    Ensure every team member has an active GitHub account. If not, sign up at [https://github.com](https://github.com).
 
 2. **Join the Assignment**  
-   The on this link to access the GitHub Classroom assignment will be sent via email to you:  
+   The link to access the GitHub Classroom assignment will be sent via email to you:  
    🔗 [https://classroom.github.com/](https://classroom.github.com/)  
    Then click **"Accept this assignment"**.
 
