@@ -120,7 +120,9 @@ git clone git@github.com:YourOrganization/your-repo-name.git
 - Install the **Python docstring extension** in VS Code to improve your documentation practices:  
   🔗 [https://sukhjitsehra.github.io/vscode/](https://sukhjitsehra.github.io/vscode/)
 
----
+### 📌 Video Recording for GitHub / Report Creation
+
+🔗 [https://youtu.be/Yp9QYC1m9VY](https://youtu.be/Yp9QYC1m9VY)
 
 ### 📌 Final Notes
 
